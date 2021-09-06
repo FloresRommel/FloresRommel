@@ -1,0 +1,69 @@
+h1{
+  position: fixed;
+  margin: 0;
+  top: 5px;
+  left: 10px;
+  z-index: 999;
+}
+h2{
+  margin: 0;
+  text-align: center;
+}
+img{
+  width:  100%;
+  height: 100%;
+  object-fit: fill;
+}
+.dptosGrid{
+  height: 100%;
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(2,33%) 1fr;
+  grid-auto-rows:244px;
+}
+.dptosGridChild{
+  border: 1px solid #000;
+  background: rgba(155,155,155,0.6);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+#bodyDptos{
+width: 95vw;
+height: 292vh;
+
+}
+#footerDtpos{
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: 272vh;
+  left: 0;
+}
+#sectionDtpos{
+  width: 100%;
+  height: 265%;
+  position: absolute;
+  top: 65px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.gridOver{
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  z-index: 999;
+  top:0;
+  left: 0;
+  transition: 1s;
+}
+
+.gridOver:hover{
+  background: rgba(100,100,100,0.5);
+  opacity:1;
+}

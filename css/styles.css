@@ -1,0 +1,149 @@
+a{
+  width: 100px;
+  height: 50px;
+  margin-right: 10px;
+  display: inline-block;
+}
+p{
+  text-align: justify;
+  padding: 15px;
+}
+h1{
+  margin-left: 10px;
+}
+body{
+  width: 90vw;
+  height: 100vh;
+  margin:0;
+  background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+  background: linear-gradient(to right, #4286f4, #373B44);
+  overflow-x: hidden;
+}
+section{
+  height: 85%;
+  width: 100%;
+  position: absolute;
+  top: 55px;
+  left: 0;
+}
+footer{
+  height: 15%;
+  width: 100%;
+  background: rgba(50,50,50,0.7);
+  position: absolute;
+  top: 90%;
+  left: 0;
+}
+#navIndex{
+    justify-content: space-between;
+}
+.navBar{
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  background: rgba(186,186,186,0.7);
+}
+.btnsNav{
+  width: 100px;
+  height: 100%;
+  border:none;
+  transition: 1s;
+  background: rgb(100,200,100)
+}
+.btnsNav:hover{
+  background: rgb(75,150,75);
+}
+.btnsNav:focus{
+  background: #fff;
+}
+.navBar-div{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sectionDiv{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-left: 3%;
+}
+
+.form-cantainer{
+  height: 94%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.form{
+  width: 75%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(50,50,50,0.7);
+  border-radius: 50px;
+  box-shadow: -10px 10px rgba(50,50,50,0.5);
+}
+.form input{
+  margin-bottom: 10px;
+  height: 20px;
+  width: 75%;
+
+}
+form button{
+  border: none;
+  background: rgb(100,200,100);
+  height: 25px;
+  width: 50%;
+  transition: 1s;
+}
+form button:hover{
+  background: rgb(75,150,75);
+}
+.loginDiv{
+  width: 100%;
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#loginForm{
+  width: 50%;
+  height: 100%;
+  background: rgba(50,50,50,0.7);
+  margin-top: 4%;
+  border-radius: 50px;
+  box-shadow: -10px 10px rgba(50,50,50,0.5);
+
+}
+.profileDiv{
+  width: 100%;
+  height: 95%;
+  background: #45BCF477;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.profileDiv p{
+  margin: 25px;
+  display: block;
+  background: linear-gradient(to right, #33b9,#77f9);
+  border-radius: 15px;
+}
+.profileDiv img{
+  margin: 10px;
+}
+#imgs{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
